@@ -1,0 +1,20 @@
+1. vscode 插件商城安装 koroFileHeader
+
+
+2. vscode 首选项中搜索 fileHeader 在setting.json 中配置
+ "fileheader.customMade": {
+        "Author": "pengqiang",
+        "Date": "Do not edit",
+        "LastEditors": "pengqiang",
+        "LastEditTime": "Do not edit",
+        "Description": "file content"
+    }
+
+3. vscode 中使用快捷键 
+自定义注释头部
+windoiw: ctrl+alt+i
+mac: ctrl+cmd+i
+
+自定义函数注释
+window: ctrl+alt+t
+mac: ctrl+cmd+t

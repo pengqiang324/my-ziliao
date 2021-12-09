@@ -1,0 +1,4 @@
+Auto Close Tag插件 自动补充HTML闭合标签
+Auto Rename Tag插件 修改HTML标签名时自动把对应的闭合标签同时修改
+Bracket Pair Colorizer插件 将括号一对一用颜色进行区分，这样你就不会被多层嵌套的括号搞晕了
+Guides插件 代码缩进的地方用竖线展示出索引对应的位置，而且点击代码将统一代码块范围的代码用统一颜色竖线标出

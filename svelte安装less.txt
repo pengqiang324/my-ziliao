@@ -1,0 +1,20 @@
+1. npm install -S svelte-preprocess-less less
+
+2. 在rollup或vite中配置 
+import { less } from 'svelte-preprocess-less'
+{
+ plugins: [svelte({
+    preprocess: {
+      style: less()
+    }
+  })	
+}]
+
+*. 异常场景
+
+  vscode 中出现 小红点
+ 解决方案：
+ vscode 看了一下提示内容，找到路径，根据提示错误的位置找路径
+  C:\Users\woqi\.vscode\extensions\svelte.svelte-vscode-105.5.3
+
+ 终端切换至以上目录 执行 npm install less 小红点提示消失

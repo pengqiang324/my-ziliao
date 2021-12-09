@@ -1,0 +1,4 @@
+1. npm uninstall node-sass
+2. npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass -D
+
+tips: 执行以上两个步骤， 若安装还是出问题。请检查各node版本与node-sass，sass-loader版本对应 （https://www.npmjs.com/package/node-sass）

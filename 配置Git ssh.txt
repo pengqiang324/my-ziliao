@@ -1,0 +1,23 @@
+1. git config --global user.name 'name'
+2. git config --global user.email 'email'
+3. cd ~/.ssh 查看 ssh 是否存在
+
+4. 生成SSH 秘钥: ssh-keygen -t rsa -C "mowangblog@qq.com(改为你的邮箱)"   
+   第一个是秘钥保存的路径，推荐不更改直接回车
+
+   第二个是如果之前有了秘钥会提示是否重写，如确定要修改原秘钥，输入y回车即可
+
+    第三第四项是创建密码和确认密码推荐直接回车不创建密码
+
+5. 输入cd ~/.ssh进入目录，ls命令可以看到创建成功了
+
+6. cat id_rsa.pub 输入命令查看秘钥文件
+
+7. 打开 git setting SSH and GPS keys 菜单 new 一个新的 SSH keys
+
+8. ssh -T git@github.com 命令查看 ssh 密钥是否配置成功
+
+9. 修改文件为 ssh 提交
+   a. 通过文件修改：打开 .git -> config 文件 修改 origin url 地址为 ssh 地址
+   b. 通过命令修改：Git config remote.origin.url 'ssh url'
+
